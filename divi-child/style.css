@@ -1,0 +1,2234 @@
+/*
+Theme Name: Divi Child
+Theme URI: https://diviextended.com/
+Version: 1.0
+Description: Child Theme of Divi
+Author: Divi Extended
+Template: Divi
+*/
+@import url("../Divi/style.css");
+
+li#menu-posts-project {
+    display: none;
+}
+.markets-tabs-container {
+    display: flex;
+} 
+
+#main-content .markets-tabs-container .et_pb_tabs_controls li {
+    display: table!important;
+}
+
+#main-content .markets-tabs-container .et_pb_tabs_controls li a {
+    font-weight: 500 !important;
+}
+
+@media screen and (max-width: 768px) {
+.markets-tabs-container {
+    display: block !important;
+}
+.markets-tabs-container .et_pb_tabs_controls li {
+    float: unset !important;
+}
+#main-content .markets-tabs-container .et_pb_tabs_controls {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+}
+
+@media screen and (max-width: 640px) {
+	#markets-benefits-section .market-benefits-rowx3 img {
+    width: 60px !important;
+}
+
+#markets-benefits-section .market-benefits-rowx3 .et_pb_text_inner {
+    font-size: 10px;
+    line-height: 1.3;
+    margin-bottom: 5px;
+}
+}
+
+.et_pb_image_wrap {
+    line-height: unset !important;
+}
+
+.single-products .polymers-property, .single-products .pine-chemical-table, .single-products .polymers-table, .single-products .properties-container .bottom-content {
+    display: none;  
+}
+
+#products-advanced-tabs .shared-files-file-title {
+    color: #58595b !important;
+}
+
+.single-products .dipi-at-panel-content h2, .single-products .dipi-at-panel-content h4 {
+    color: #172b54 !important;
+	font-size: 25px!important;
+    font-weight: 700;
+}
+
+.single-products .dipi-at-panel-content .shared-files-search>ul>li span.shared-files-file-title {
+    max-width: 350px;
+    width: 100%;
+}
+
+#markets-benefits-section .benefits li {
+    line-height: 29px;
+}
+
+.product-suite-list .row {
+    display: flex;
+    width: 100%; 
+} 
+
+.product-suite-list .row .col-md-4 {
+    width: 33%;
+}
+
+#et_search_icon {
+	color: #fff !important;
+}
+
+#et_search_icon::before {
+    color: #ffffff !important;
+}
+
+#main-header .et_search_form_container input{
+	color: #172B54 !important;
+}
+
+#wp-block-search__input-1{
+	color: #172B54 !important;
+}
+
+#main-header .et-search-form input::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #172B54 !important;
+  opacity: 1; /* Firefox */
+}
+
+#main-header .et-search-form input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #172B54 !important;
+	opacity: 1;
+}
+
+#main-header .et-search-form input::-ms-input-placeholder { /* Microsoft Edge */
+  color: #172B54 !important;
+	opacity: 1;
+}
+
+#left-area .product-suite-list ul {
+    list-style-type: none !important;
+    padding: 0 !important;
+}
+
+#left-area .product-suite-list li {
+    line-height: 2em !important;
+}
+
+.sds-container {
+    margin: 30px auto;
+}
+
+#products-advanced-tabs .sds-container .sds-description {
+    font-weight: 300;
+	line-height: 29px;
+}
+
+@media screen and (min-width: 769px) {
+	#products-advanced-tabs .sds-description {
+    line-height: 29px !important;
+}
+	.footer-mobile {
+	display:none;	
+	}
+}
+
+@media screen and (max-width: 500px){
+	#left-area .product-suite-list li {
+    font-size: 14px !important;
+}
+}
+
+#et_search_icon:before{
+	margin-top: 7px;
+}
+
+#main-header{
+	background-color: transparent;
+	box-shadow: none;
+}
+img#logo {
+    width: 220px;
+    max-height: none!important;
+  }
+
+.home .cl-element-featured_media--no-image {
+    height: 218px !important;
+    padding-top: 0 !important;
+}
+  
+  @media screen and (min-width: 1124px) {
+  #mega-menu-wrap-primary-menu #mega-menu-primary-menu > #mega-menu-item-4830 > ul.mega-sub-menu, #mega-menu-wrap-primary-menu #mega-menu-primary-menu > #mega-menu-item-312 > ul.mega-sub-menu {
+    width: 300px;
+    position: absolute;
+    left: auto;
+    right: auto;
+  }
+  }
+  
+  #mega-menu-wrap-primary-menu #mega-menu-primary-menu > #mega-menu-item-4830 > ul.mega-sub-menu .mega-menu-column, #mega-menu-wrap-primary-menu #mega-menu-primary-menu > #mega-menu-item-312 > ul.mega-sub-menu .mega-menu-column {
+    width: 100% !important;
+  }
+  
+  #mega-menu-primary-menu .mega-menu-item .mega-sub-menu .mega-menu-item .mega-sub-menu a:before {
+    content: '-';
+    font-size: 20px !important;
+    margin-top: -10px !important;
+  }
+  
+  
+  @media screen and (min-width:1366px){
+  #footer-bottom .container {
+    width: 100% !important;
+  }
+  }
+  @media screen and (max-width:1300px)and (min-width:769px){
+  #main-header .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  }
+  
+  .product-description {
+   white-space: break-spaces;
+  }
+  
+  #post-6673 .product-description {
+  white-space:initial;
+  }
+  
+  @media only screen and (max-width: 767px){
+  .et_header_style_left .logo_container{
+    position:relative;
+  }
+  header#main-header {
+    padding: 0 20px;
+    background: #000;
+  }
+  #main-header .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%!important;
+  }}
+  header#main-header {
+    padding: 20px;
+  }
+  .et_header_style_left #et-top-navigation {
+    padding: 0px;
+  }
+  @media (min-width: 981px){
+  .et_header_style_left .et-fixed-header #et-top-navigation {
+    padding-top: 0px!important;
+  }  
+	.et_header_style_left #et-top-navigation {
+    padding-top: 0px!important;
+  }}
+  
+  #main-header.et-fixed-header
+  .single-products .et_post_meta_wrapper:first-child img {
+    display: none !important;
+  }
+  
+  .portfolio-container .portfolio-prod-image {
+    column-gap: 30px;
+  }
+  h3.not-found {
+    text-align: center;
+    padding: 10px;
+  }
+  .portfolio-container .portfolio-prod-image img {
+    width: 300px;
+    max-height: 100%;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  .benefits-slider img {
+  visibility: hidden!important;
+  }
+  .benefits-slider {
+  margin: 0px!important;
+  }
+  .pine-chemical-color {
+   background-color: #84BE41 !important;
+  }
+.mega-sub-menu.pine-chemical-color {
+	background-color: rgb(132,190,65, 0.8) !important;
+}
+  .pine-chemical-list-color{
+  color: #3C631A !important;
+  }  
+  
+  .polymers-color {
+   background-color: #172B54 !important;
+  }
+  
+  .oilfield-tab p>span, .oilfield-tab ul>li {
+  font-size: 19px !important;
+  line-height: 1.3 !important;
+  font-family: 'Roboto' !important;
+  }
+  
+  .portfolio-container:not(:first-child){
+  display: none;
+  }
+  
+  article.products{
+    margin-top: -30px;
+  }
+  
+  .products-template-default #main-content .container {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  
+  article.products h1.entry-title {
+    display: none;
+  }
+  
+  
+  #main-footer .container:not(.clearfix){
+    background-color: #172B54;
+    width: 100% !important;
+    max-width: 100%;
+  }
+  
+  #footer-widgets .fwidget {
+    width: 100%;
+  }
+  
+  #footer-widgets {
+    padding: 50px 30px;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .list-footer-menu li:before {
+    display: none;
+  }
+  
+  .list-footer-menu li {
+    margin-left: -15px;
+  }
+  
+  .list-footer-menu li a {
+    color: #00629B!important;
+    font-size: 18px;
+  }
+  
+  .list-footer-menu {
+    margin-top: 15px;
+  }
+  
+  .footer-one h4 {
+    color: #ffffff!important;
+    font-size: 24px;
+  }
+  
+  #page-container .free-header-overlap .et_pb_row {
+    overflow: visible!important;
+  }
+  
+  #et-boc #main-header {
+    margin-bottom: -95px;
+  }
+  
+  .footer-social-links .et-social-facebook a:before {
+    content: "\e093";
+  }
+  
+  .footer-social-links .et-social-twitter a:before {
+    content: "\e094";
+  }
+  
+  .footer-social-links .et-social-linkedin a:before {
+    content: "\E09D";
+  }
+  
+  .footer-social-links .et-social-youtube a:before {
+    content: "\E0A3";
+  }
+  
+  .footer-social-links a:before {
+    font-family: ETmodules;
+  }
+  
+  .footer-social-links li:before {
+    display: none;
+  }
+  
+  .footer-social-links li {
+    margin-left: -15px;
+    width: 20%;
+  }
+  
+  #footer-widgets .footer-social-links li a {
+    font-size: 24px;
+    line-height: 48px;
+    height: 48px;
+    width: 48px;
+    color: #00639D;
+  }
+  
+  .footer-social-links {
+    display: flex;
+  }
+  
+  #kraton-logo {
+    width: 256px;
+    margin-bottom: 20px;
+  }
+  
+  .footer-bottom span {
+    color: #ffffff;
+  }
+  
+  .footer-bottom .col-md-6 {
+    width: 50%;
+    max-width: 100%;
+  }
+  
+  #footer-info {
+    width: 100%;
+  }
+  
+  #footer-info .col-md-6 {
+    width: 50%;
+  }
+  
+  #footer-info .row {
+    display: flex;
+  }
+  
+  #footer-info .col-md-6 .col-right {
+    text-align: right;
+  }
+  
+  #footer-info .col-right a:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  #footer-info .col-right a {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  div#n2-ss-2 .n2-ss-slide-limiter {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+  /*for-tabs*/
+  /*#product-tabs .et_pb_column.et_pb_column_1_4.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough::-webkit-scrollbar { 
+    display: none;
+  }*/
+  #product-tabs .et_pb_column.et_pb_column_1_4.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+  overflow-y: scroll;
+  height: 520px;
+  direction: rtl;
+  }
+  button.portfolio-button {
+    text-align: left;
+    background-color: #888B8C;
+    border-style: none;
+    padding: 20px;
+    width: 100%;
+    margin: 0px 0px 10px 0px;
+    border-radius: 10px;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 12px;
+    color: #ffffff;
+    cursor: pointer;
+  }
+  .et_pb_column.et_pb_column_3_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough.et-last-child, .col-last-prod {
+    padding: 25px;
+    border: solid #AAADAD 2px;
+    height: auto;
+    width: 76.625%!Important;
+  }
+  h3.p1 {
+    color: #35476a;
+  }
+  .et-db #et-boc .et-l .et_pb_text_3 h3 {
+    color: #35476a;
+    font-size: 35px;
+  }
+  .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column_3_4 .et_pb_module {
+    margin-bottom: 0%;
+  }
+  .et_pb_gutters3.et-db #et-boc .et-l .et_pb_column {
+    margin-right: 23px;
+  }
+  button.btn-product-brochure {
+    text-align: left;
+    background-color: #172B54;
+    border: none;
+    color: #ffff!important;
+    padding: 15px;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  button.btn-product-sds {
+    text-align: left;
+    background-color: #172B54;
+    border: none;
+    color: #ffff!important;
+    padding: 15px;
+    font-size: 18px;
+  }
+  .literature-buttons {
+    display: inline-grid!important;
+  }
+  .literature-buttons a  {
+    color: #ffff!important;
+    margin-bottom: 15px;
+  }
+  .portfolio-container .product-image-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .portfolio-container .product-description-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  /*for-tabs*/
+  /*for table*/
+  .portfolio-container .product-image-container {
+    width: 100%;
+    max-width: 800px;
+  }
+  
+  .portfolio-container .product-description-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  h2.literature-header, h2.product-name, h2.polymers-property {
+    color: #35476a;
+    font-size: 25px !important;
+    font-weight: 700;
+  }
+  h2.polymers-property {
+    text-align: center;
+  }
+  h2.literature-header {
+  margin-bottom: 20px;
+  }
+  h2.polymers-property {
+  padding-top: 40px;
+  }
+  
+  .portfolio-container .product-description, .portfolio-container ul li {
+  font-size: 18px !important;
+		font-weight: 300 !important;
+		line-height: 1.6em !important;
+  }
+  
+  .portfolio-container button {
+  font-family: 'Montserrat' !important;
+  font-weight: 500 !important;
+  font-size: 16px !important;
+  }
+  
+  .product-sds-list-container a {
+  color: #00639D !important;
+  }
+  
+  .product-sds-list-container a:hover {
+  text-decoration: underline;
+  }
+  
+  .product-sds-list-container .sds-list {
+  font-size:19px !important;
+  }
+  
+  table.polymers-table tr td, table.polymers-table, table.pine-chemical-table tr td, table.pine-chemical-table{
+    border-style: none!important;
+  }
+  table.polymers-table th {
+  font-family: 'Roboto';
+  color:#ffffff;
+  background-color: #00639D;
+  
+  }
+
+  table.pine-chemical-table th {
+  font-family: 'Roboto';
+  color:#ffffff;
+  background-color: #3C631A;
+  
+  }
+  .portfolio-buttons-container .active {
+    background: #00639D;
+  }
+  .portfolio-buttons-container .active.pine-chemical {
+    background: #84BE41;
+  }
+  p.bottom-content {
+    text-align: center;
+  }
+  /*for table*/
+  .et-db #et-boc .et-l #pine-chemical-header {
+    background-color: #3C631A !important;
+  }
+  .pine-chemical button.btn-product-brochure {
+      background-color: #84BE41;
+  }
+  .pine-chemical button.btn-product-sds {
+      background-color: #84BE41;
+  }
+  article.category-polymers .et-db #et-boc .et-l .et_pb_section_0.et_pb_section {
+    background-color: #00629b!important;
+  }
+  li#menu-item-4433 ul.sub-menu {
+    overflow: scroll;
+    height: 400px;
+  }
+    li#menu-item-4433 ul.sub-menu::-webkit-scrollbar { 
+    display: none;
+  }
+  li#menu-item-5736 ul.sub-menu {
+    overflow: scroll;
+    height: 400px;
+  }
+    li#menu-item-5736 ul.sub-menu::-webkit-scrollbar { 
+    display: none;
+  }
+  li#menu-item-1281 ul.sub-menu {
+    overflow: scroll;
+    height: 400px;
+  }
+    li#menu-item-2653 ul.sub-menu, li#menu-item-1281 ul.sub-menu::-webkit-scrollbar { 
+    display: none;
+  }
+  @media only screen and (max-width: 980px) {
+  article.products{
+    margin-top: -60px !important;
+  }
+  .et_pb_column.et_pb_column_3_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    width: 100%!important;
+  }
+  }
+  @media only screen and (max-width: 1165px) {
+  #product-tabs .et_pb_column.et_pb_column_1_4.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+    width: 100%!Important;
+  margin: 0px 0px 0px 0px!important;
+  }
+  .et_pb_column.et_pb_column_3_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    width: 100%!important;
+  }
+  }
+  @media only screen and (max-width: 767px) {
+  a.button-webinar {
+    text-align: center;
+    width: 100%;
+  }
+  .categories-tab button {
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+  }
+  .table-mobile {
+    overflow-y: scroll;
+  }
+  button.mega-toggle-animated.mega-toggle-animated-slider {
+    width: 100%;
+    align-items: center;
+  }
+  
+  .et_pb_column.et_pb_column_3_4.et_pb_column_6.col-last-prod.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    width: 100%!important;
+  }
+  .properties-container {
+    overflow-x: scroll;
+  }
+  .learn-more-btn {
+    text-align: center;
+    width: 100%;
+  }
+  .properties-container::-webkit-scrollbar { 
+    display: none;
+  }
+      li#menu-item-4433 ul.sub-menu, li#menu-item-5736 ul.sub-menu, li#menu-item-1281 ul.sub-menu, li#menu-item-3002 ul.sub-menu {
+    overflow: scroll;
+    height: 150px;
+  }
+    li#menu-item-4433 ul.sub-menu, li#menu-item-5736 ul.sub-menu, li#menu-item-1281 ul.sub-menu, li#menu-item-3002 ul.sub-menu::-webkit-scrollbar { 
+    display: none;
+  }
+  .pine-chemical-color ul#mobile_menu {
+      background-color: #84BE41!Important;
+  }	
+  .pine-chemical-color .et_mobile_menu {
+    border-top: solid #ffffff 2px;
+  }
+  
+  .pine-chemical-color .mobile_menu_bar:before {
+    color: #ffffff;
+  }	.et_pb_column.et_pb_column_3_4.et_pb_column_9.et_pb_css_mix_blend_mode_passthrough.et-last-child {
+    width: 100%!important;
+    height: auto;
+  }
+  .et_pb_row.et_pb_row_0 .et_pb_text_inner {
+    line-height: 50px;
+    font-size: 44px;
+  }
+  .markets-polymers .et_pb_section {
+    padding: 50px 0 33px;
+  }
+  .literature-buttons {
+    margin-bottom: 15px;
+    width: 100%;
+  }
+  
+  #product-tabs .et_pb_column.et_pb_column_1_4.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough{
+  margin: 0px 0px 0px 0px!important;
+      overflow-y: scroll;
+    height: 520px;
+  }
+  /*#product-tabs .et_pb_column.et_pb_column_1_4.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough::-webkit-scrollbar { 
+    display: none;
+  }*/
+  .col-md-12.portfolio-prod-image {
+    display: grid;
+    justify-items: center;
+  }
+  .portfolio-container .portfolio-prod-image img {
+    width: 100%;
+    padding: 20px 0px 10px 0px;
+  }
+  
+  button {
+    width: 100%;
+    text-align: center!important;
+  }
+  
+  #footer-info .col-md-6 {
+    width: 100%;
+  }
+  
+  #footer-info .row {
+    display: block;
+  }
+  
+  #footer-info .col-right a:not(:last-child) {
+    margin-right: 10px;
+  }
+  
+  #footer-info .col-right a {
+    font-size: 14px;
+  }
+  
+  #footer-info .col-md-6 .col-right {
+    text-align: center;
+    margin-top: 5px;
+  }
+  }
+  
+  body:not(.page-id-15) #main-header {
+    background-color: #172B54;
+  }
+  
+  @media only screen and (max-width: 1025px) {
+  #logo {
+    max-height: 40%;
+   
+  }
+  
+  #top-menu li {
+    padding-right: 10px;
+  }
+  
+  /* 	.et_pb_text_inner .talent {
+    font-size: 43px;
+  } */
+  
+  .et_pb_image_4 .et_pb_image_wrap .wp-image-55 {
+        height: 171px !important;
+  }
+  
+  .kraton_news{
+        text-align: center !important;
+    font-size: 20px !important;
+  }
+  
+  .wp-image-390, .wp-image-391 ,.wp-image-389{
+    max-width:235px !important
+  }
+  .portfolio-container .portfolio-prod-image img{
+    margin-left: 0 !important;
+  }
+  }
+  @media only screen and (min-width: 1023px){
+    #top-icon {
+    display:none !important;
+  } 
+  }
+
+.market-benefits-rowx3{
+	  display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.market-benefits-rowx3 .et_pb_column {
+    margin-bottom: 0 !important;
+}
+
+#main-content .market-benefits-rowx3 {
+    padding-bottom: 30px !important;
+}
+
+  @media only screen and (max-width: 1024px) {
+  #tabs-mobile {
+    width:100% !important;
+  }
+  #product-tabs .et_pb_column.et_pb_column_1_4.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+   height: 210px !important;
+   
+  }
+
+		.market-benefits-rowx3 {
+			flex-wrap: nowrap !important;
+padding: 0 !important;
+		}
+
+		.market-benefits-rowx3 img {
+		width: 100%;
+			max-width: 90px!important;
+			margin-left: auto!important;
+			margin-right: auto !important;
+		}
+
+	.category-press-releases .et_pb_section_first {
+			padding-top: 100px !important;
+			padding-bottom: 25px !important; 
+		}
+
+		.category-press-releases .et_pb_text_inner {
+			line-height: 1.5;
+		}
+
+.category-press-releases .et_pb_section_first h1 {
+    font-size: 30px!important;
+		}
+
+		.category-press-releases .et_pb_row {
+			width: 100% !important;
+			padding: 0;
+		}
+
+		.category-press-releases .et_pb_section {
+			padding-left: 20px !important;
+padding-right: 20px !important;
+		}
+
+		.category-press-releases .et_pb_section_1 {
+			padding-top: 30px;
+			padding-bottom: 20px !important;
+		}
+  
+  }
+  
+  
+  @media only screen and (max-width: 980px) {
+  #mobile_menu {
+        background-color: #172b54 !important;
+  }
+    button {
+    width: 100%;
+    text-align: center!important;
+  }
+  }
+  .hide-product-btn {
+  display:none;
+  }
+  @media only screen and (max-width: 425px) {
+  .wp-image-49.alignnone {
+    width: 100% !important;
+    max-width: 20px !important;
+  }
+  #market-tabs ul.et_pb_tabs_controls.clearfix {
+    overflow: auto;
+    height: 200px !important;
+  }
+  .categories-tab p, .oilfield-tab li {
+    font-size: 16px !important;
+  }
+  }
+  
+  @media only screen and (max-width: 768px) {
+		
+		.cl-element-title {
+    height: auto !important;
+}
+  
+  .et_pb_image_4 .et_pb_image_wrap .wp-image-55 {
+        height: auto !important;
+  }
+  #mega-menu-wrap-primary-menu #mega-menu-5736-0,#mega-menu-1770-0,#mega-menu-419-0,#mega-menu-418-0{
+    overflow: scroll!important;
+    height: 240px!important;
+    margin-bottom: 30px;
+  }
+  .mega-menu-row {
+    padding: 0px 15px!important;
+  }
+  #mega-menu-wrap-primary-menu #mega-menu-primary-menu li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-row .mega-menu-column > ul.mega-sub-menu > li.mega-menu-item{
+        padding: 0px 15px 10px 15px !important;
+  }
+  
+  .benefits li::before {
+    top: 1.4em !important;
+  }
+  
+  #product-tabs .et_pb_column.et_pb_column_1_4.et_pb_column_5.et_pb_css_mix_blend_mode_passthrough {
+        height: 200px;
+        margin-bottom: 20px !important;
+    }
+  .market-pine-chemical.et_pb_module.et_pb_tabs.et_pb_tabs_0.et_multi_view__hover_selector {
+    display: flex;
+    flex-direction: column;
+  }
+  #market-tabs .market-pine-chemical ul.et_pb_tabs_controls.clearfix {
+    width: 100% !important;
+/*   max-width:700px !important */
+  }
+  .market-pine-chemical .et_pb_all_tabs {
+    margin-left: 0px !important;
+  }
+    #market-tabs ul.et_pb_tabs_controls.clearfix {
+    overflow: auto;
+    height: 250px;
+  }
+  #footer-bottom {
+    position:relative !important
+  }
+  #adhesive-tab,#adhesive-tab-second ,#cosmetics-tab-polymers{
+    flex-direction: column;
+  }
+  #adhesive-tab ul.et_pb_tabs_controls.clearfix,	#adhesive-tab-second ul.et_pb_tabs_controls.clearfix{
+    width:100% !important;
+    max-width:1024px !important;
+  }
+  #adhesive-tab ul.et_pb_tabs_controls.clearfix,	#adhesive-tab-second ul.et_pb_tabs_controls.clearfix{
+    height: auto !important;
+  }
+  #adhesive-tab-second ul.et_pb_tabs_controls.clearfix{
+    height: 400px !important;
+  overflow:scroll;
+  }
+  .market-pine-chemical .et_pb_all_tabs {
+    padding: 0px 0px 0px 0px !important;
+  }
+  #automotive-chemical ,#compounding-polymers{
+    flex-direction: column;
+  }
+		.footer-bottom {
+		display:none;	
+		}
+  }
+  .products .market-products-img {
+  width:100% !important;
+  max-width:120px !important;
+  margin-left: 60px !important;
+  }
+  /* .et_pb_column.et_pb_column_1_4.et_pb_column_4.et_pb_css_mix_blend_mode_passthrough {
+    margin-right: 0px !important;
+     margin-left: 50px;
+  } */
+  
+  .et_pb_module.et_pb_image.et_pb_image_3.market-products-img {
+    margin-left: 0px !important;
+  }
+  
+  .et_pb_module.et_pb_image.et_pb_image_2.market-products-img {
+    margin-left: 0px !important;
+  }
+  
+  /* .button-portfolio {
+  overflow-y:scroll;
+  height:500px;
+  } */
+  
+  .not-found-properties ,.not-found {
+  text-align:center;
+  }
+  .not-found {
+  font-size: 18px;
+  }
+  #chemical-properties th {
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #3C631A;
+  }
+  
+  /* .et_pb_column.et_pb_column_1_4.et_pb_column_8.et_pb_css_mix_blend_mode_passthrough::-webkit-scrollbar{
+  width: 10px !important;
+  background-color: #00629b !important;
+  } */
+  /*market pine chemical*/
+  .market-pine-chemical.et_pb_module.et_pb_tabs.et_pb_tabs_0.et_multi_view__hover_selector {
+    display: flex;
+  }
+  .market-pine-chemical ul.et_pb_tabs_controls.clearfix {
+    font-family: 'Montserrat'!important;
+    width: 1500px;
+    max-width: 230px!important;
+    font-size: 12px;
+    line-height: 1.5em!important;
+      background-color: #ffffff!important;
+  }
+  .market-pine-chemical li.et_pb_tab_0, li.et_pb_tab_1, li.et_pb_tab_2 ,li.et_pb_tab_3 ,li.et_pb_tab_4 ,li.et_pb_tab_5 ,li.et_pb_tab_6 ,li.et_pb_tab_7 ,li.et_pb_tab_8 ,li.et_pb_tab_9 ,li.et_pb_tab_10 ,li.et_pb_tab_11 ,li.et_pb_tab_12 ,li.et_pb_tab_13 ,li.et_pb_tab_14 ,li.et_pb_tab_15 ,li.et_pb_tab_16 {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 45px!important;
+    line-height: 1.5em!important;
+  }
+  
+  .market-pine-chemical .et_pb_all_tabs {
+    margin-left: 20px;
+    padding: 0px 30px 0px 10px;
+    line-height: 1.5em!important;
+  }
+  
+  .market-pine-chemical ul.et_pb_tabs_controls:after {
+  display: none;
+  }
+  
+  .market-pine-chemical .et_pb_all_tabs button {
+    text-align: left !important;
+    width: fit-content !important;
+  }
+  .entry-content tr td {
+    padding: 4px 0px;
+  }
+  @media only screen and (max-width: 767px) {
+  .et_pb_module.et_pb_tabs.et_pb_tabs_0.et_multi_view__hover_selector {
+    display: block!important;
+  }
+  .market-pine-chemical ul.et_pb_tabs_controls.clearfix {
+    width: 100%!important;
+    max-width: none!important;
+  }
+  
+  span.logo_helper {
+  height: auto;
+  margin-top: 100px;
+  }
+  
+  #main-header .container {
+    width: 90%;
+  }
+  
+  .market-pine-chemical .et_pb_all_tabs {
+    margin-left: 0px;
+  }
+  .wpfd-single-file {
+    width: 100%;
+    max-width: none!important;
+  }
+  a.noLightbox.wpfd_downloadlink.wpfd-single-file-button.wpfd-button-download, a.wpfd-single-file-button.wpfd-button-preview {
+    margin: 10px 0 0 0;
+    width: 100%;
+  }
+  .wpfd-single-file--buttons {
+    display: block!important;
+  }
+  }
+  /*market pine chemical*/
+  #polymers-properties .polymers-table {
+    font-family: 'Roboto';
+    color: #ffffff;
+    background-color: #00639d;
+  }
+  
+  .et_pb_module.et_pb_text.et_pb_text_1.title.et_pb_text_align_center.et_pb_bg_layout_light .et_pb_text_inner {
+  color:#58595B !important;
+  }
+  /* .et_pb_module.et_pb_text.et_pb_text_5.et_pb_text_align_left.et_pb_bg_layout_light h2 {
+  color:#35476a !important;
+  } */
+  .et_pb_row.et_pb_row_6.et_pb_equal_columns.et_pb_gutters1.et_pb_row_1-4_3-4 .et_pb_toggle_title:before {
+      margin-left: -20px !important;
+  left:0px !important;
+  }
+  .sub-menu {
+      background-color: #172B54!important;
+  }
+  .wpfd-single-file--buttons {
+    justify-content: center;
+  }
+  .wpfd-single-file {
+    margin: 100px auto 0 auto!important;
+    width: 100%;
+    max-width: min-content;
+  }
+  
+  .aquatac-table tr th {
+  padding: 2px 0px;
+  text-align: center;
+  background-color: #3C631A;
+  color: #ffffff;
+  }
+  .aquatac-table td {
+  text-align: center;
+  border-top: none !important;
+  }
+  .aquatac-table .aquatic-td {
+  background-color:#82c534e0;
+  color: #ffffff;
+  }
+  
+  .textbox-blog-height {
+    height: 250px !important;
+  }
+  #footer-info .col-right a:not(:last-child) {
+    margin-right: 23px !important;
+  }
+  #et_mobile_nav_menu {
+    display: none !important;
+  }
+  h3.sds-list-header {
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+    background-color: #172B54;
+    color: #ffff;
+  }
+  .product-sds-list-container {
+    padding: 10px;
+    border: 1px solid #eee;
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+  .categories-tab img {
+    margin-left: 0px!important;
+    margin-bottom: 0px!important;
+    float: unset!important;
+    width: 100%!important;
+  }
+  header#main-header {
+    background-color: transparent;
+  }
+  
+  img#logo {
+    width: 150px;
+  }
+  
+  .et_header_style_left #logo {
+    max-width: 100%;
+  }
+  
+  #main-header .logo_container {
+    display: flex;
+    align-items: center;
+  }
+  
+  span.logo_helper {
+    margin-top: 0;
+  }
+  
+  #et-top-navigation {
+    padding-left: 0 !important;
+  }
+  }
+  
+  @media only screen and (min-width: 981px){
+  .et-fixed-header#main-header, .et-fixed-header#main-header .nav li ul, .et-fixed-header .et-search-form {
+    background-color: rgba(0,0,0,0.4);
+  }
+  }
+  
+  .content-font {
+      font-weight: 400;
+      line-height: 1.3;
+      font-size: 19px !important;
+      font-family: 'Roboto',Helvetica,Arial,Lucida,sans-serif;
+  }
+  .content-font li {
+      line-height: 1.3;
+  }
+  #market-tabs ul.et_pb_tabs_controls.clearfix {
+    overflow: hidden;
+  }
+  /* #market-tabs ul.et_pb_tabs_controls.clearfix::-webkit-scrollbar {
+    display: none;
+  }*/
+  .categories-tab {
+  margin-top:15px;	
+  }
+  .categories-tab h3 {
+    font-size: 22px;
+    color: #172B54;
+    font-weight: 700;
+  }
+  
+  .categories-tab p, .oilfield-tab li {
+    font-weight: 500;
+    font-size: 19px;
+    font-family: 'Roboto';
+    color: #58595B;
+  }
+  
+  .categories-tab button {
+    text-align: right;
+    background-color: #83bd40;
+    border: none;
+    color: #ffff;
+    padding: 15px;
+    font-size: 16px;
+    margin-bottom: 10px;
+		height:unset !important;
+		font-family:'Montserrat' !important;
+  }
+  
+  .categories-tab button a {
+    color: #ffffff;
+  }
+  
+  .categories-tab img {
+    float: right;
+    width: 350px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* .categories-tab h3{
+    margin-top: 20px !important;
+  } */
+  
+  #categories-polymers ul.et_pb_tabs_controls {
+    background-color: #ffffff!important;
+  }
+  
+  .categories-tab h3 {
+    color: #172B54;
+  }
+  /* #adhesive-tab-second a, div#adhesive-tab a, div#oilfield-polymers a {
+    font-family: montserrat!important;
+    font-weight: 200!important;
+  font-size: 16px;
+  
+  } */
+  
+   body p , span , b {
+  line-height: 1.5 !important;
+  }
+	body.single-post p, body.single-post .et_pb_text_inner {
+			font-weight: 300;
+	}
+	 ul, ol{
+		font-family: 'Roboto',sans-serif;
+	}
+  h1,h2,h3,h4,h5,h6{
+    line-height: 1.3 !important; 
+  }
+  #footer-bottom {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 99;
+  }
+  
+  
+  #top-icon {
+  display: inline-block;
+  background-color: #84BE41;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+  }
+  #top-icon::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1.5em;
+  line-height: 50px;
+  color: #fff;
+  }
+  #top-icon:hover {
+  cursor: pointer;
+  background-color: #172B54;
+  }
+  #top-icon:active {
+  background-color: #00649C;
+  }
+  #top-icon.show {
+  opacity: 1;
+  visibility: visible;
+  }
+  
+  #top-icon .content {
+  width: 77%;
+  margin: 50px auto;
+  font-size: 17px;
+  color: #6c767a;
+  line-height: 1.9;
+  }
+  
+  /* for button slider  */
+  .slider-button {
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  
+  }
+  
+  .slider-button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  }
+  
+  .slider-button span:after {
+  content: '\f054';
+  font-family: 'FontAwesome';
+  position: absolute;
+  opacity: 0;
+  top: auto;
+  right: 0px;
+  transition: all 300ms ease 0ms;
+  font-weight: 900 !important;
+  }
+  
+  .literature-buttons .slider-button span:after {
+  top: 1px !important;
+  }
+  
+  .slider-button:hover span  {
+  padding-right: 17px;
+  margin-left: -5px;
+  }
+  .slider-button a { 
+  transition: all 10ms ease 0ms !important;
+  }
+  /* .slider-button:hover a {
+  padding-left: 23px !important;
+  } */
+  
+  .slider-button:hover span:after{
+  opacity: 1;
+  right: 0;
+  }
+  
+  /* for categories/product tab slider */
+  .categories-tab button {
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  }
+  
+  .categories-tab button a {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  }
+  
+  .categories-tab button a:after {
+  content: '\f054';
+  font-family: 'FontAwesome';
+  position: absolute;
+  opacity: 0;
+  top: auto;
+  right: 0px;
+  transition: all 300ms ease 0ms;
+  font-weight: 400 !important;
+		bottom:0px;
+  }
+  
+  .categories-tab button:hover a {
+  padding-right: 25px;
+  padding-left: 10px;
+  }
+  
+  .categories-tab button:hover a:after {
+  opacity: 1;
+  right: 0;
+  }
+  
+  .mega-sub-menu .mega-menu-link {
+    padding: 5px 0px !important;
+  }
+  
+  .mega-sub-menu .mega-menu-item {
+    padding-top: 0 !important;
+  }
+  
+  @media screen and (max-width: 1024px){
+  .mega-toggle-animated {
+  width: 100%;
+  }
+  }
+  
+  #pr-single-section {
+  padding-top: 115px!important;
+  }
+  
+  .et_pb_button:after {
+    font-weight: 800 !important;
+  font-size: 30px;
+  }
+  
+  .categories-tab p, .oilfield-tab li {
+    font-weight: 300;
+    font-size: 19px;
+    font-family: 'Roboto';
+    color: #58595B;
+  }
+  
+  
+  
+  /*MOBILE FOR PRODUCTS*/
+  @media screen and (max-width: 767px) {
+        #oilfield-polymers li.et_pb_tab_0, li.et_pb_tab_1, li.et_pb_tab_2, li.et_pb_tab_3, li.et_pb_tab_4 li.et_pb_tab_5, li.et_pb_tab_6, li.et_pb_tab_7, li.et_pb_tab_8, li.et_pb_tab_9, li.et_pb_tab_10{
+    display: flex!important;
+    align-items: center!important;
+    line-height: 1.3em!important;
+  }
+  .status-publish #markets-benefits .et_pb_text_inner {
+    font-family: 'Roboto';
+    font-size: 19px!important;
+  }
+  
+  .status-publish .et_pb_row_0 .et_pb_text_inner, .market-categories-polymers .et_pb_row_0 .et_pb_text_inner {
+    font-family: 'Montserrat';
+    font-size: 38px;
+  }
+  
+  /* .status-publish .et_pb_text_inner h3 {
+    font-family: 'Montserrat';
+    font-size: 33px!important;
+  } */
+  
+  .status-publish .et_pb_text_inner li {
+    font-family: 'Roboto'!important;
+    font-size: 16px!important;
+  }
+  
+  .status-publish .et_pb_text_inner ul {
+    padding-bottom: 30px;
+  }
+  
+  .status-publish .et_pb_text_inner h2 {
+    padding: 0;
+  }
+  div#product-tabs {
+    padding-bottom: 50px!important;
+  }
+  
+  .markets-container img {
+    width: 150px!important;
+  }
+  div#title-market-benefits h3 {
+    padding: 20px 0 0 0!important;
+  }
+  .portfolio-container .product-description b, h2.literature-header, h2.product-name, h2.polymers-property {
+    font-size: 19px!important;
+    font-weight: 700;
+  }
+  .portfolio-container .product-description {
+    font-size: 16px!important;
+  }
+  
+  }
+  @media only screen and (min-width: 980px) {
+.status-publish .et_pb_text_inner li {
+    font-weight: 300;
+    font-size: 18px;
+}
+  .status-publish .et_pb_text_inner ul {
+    padding-bottom: 30px!important;
+  }
+    div#title-market-benefits h3 {
+    padding: 20px 0 0 0!important;
+  }
+  }
+  
+  .status-publish .et_pb_row_0 .et_pb_text_inner, .market-categories-polymers .et_pb_row_0 .et_pb_text_inner {
+    font-family: 'Montserrat'!important;
+  }
+  .status-publish .et-db #et-boc .et-l .et_pb_section {
+  padding-top: 100px!Important;
+  }
+  /*MOBILE FOR PRODUCTS*/
+  
+  .portfolio-button {
+  text-transform: uppercase !Important;
+  }
+  .et_pb_section_first .et_pb_text_inner {
+  text-transform: uppercase
+  }
+  
+  .markets-container a img {
+  max-width: 120px;
+  }
+  
+  .product-markets {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+  }
+  
+  .product-markets span {
+  display: block;
+  width: 100%;
+  text-align:center;
+  }
+  
+  .product-markets img {
+  max-width: 130px;
+  }
+  
+  .product-markets .et_pb_image {
+  margin-bottom: 0px;
+  }
+  
+  @media screen and (max-width: 1165px){
+  #product-tabs .et-last-child {
+    width: 100% !important;
+  }
+  }
+  
+  @media screen and (max-width: 1164px) and (min-width: 768px) {
+  .single-products .et_pb_section_0 .et_pb_text_inner {
+    line-height: 1.3em !important;
+  }
+  }
+  
+  @media screen and (max-width: 500px) {
+  .single-products .et_pb_section_0 .et_pb_text_inner {
+    font-size: 34px;
+  }
+  }
+  
+  @media screen and (max-width: 320px) {
+  .single-products .et_pb_section_0 .et_pb_text_inner {
+    font-size: 30px !important;
+  }
+  }
+  
+  .slider-button .cl-element-link__anchor {
+  cursor: pointer !important;
+  display: inline-block !important;
+  position: relative !important;
+  transition: 0.5s !important;
+  }
+  
+  .slider-button .cl-element-link__anchor:after {
+  content: '\f054'!important;
+  font-family: 'FontAwesome' !important;
+  position: absolute !important;
+  opacity: 0 !important;
+  top: 10px !important;
+  margin-right: 7px !important;
+  right: 0px !important;
+  transition: all 300ms ease 0ms !important;
+  font-weight: 900 !important;
+  }
+  
+  .slider-button:hover .cl-element-link__anchor {
+  padding-right: 25px !important;
+  }
+  .slider-button a { 
+  transition: all 300ms ease 0ms !important;
+  }
+  
+  .slider-button:hover .cl-element-link__anchor:after{
+  opacity: 1 !important;
+  right: 0 !important;
+  }
+  
+  div#bv_sidebar_container {
+    display: none;
+  }
+  
+  
+  .below-hero-font.dark span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(0,0,0,0.8);
+  }
+  
+  .below-hero-font.light span {
+  font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  line-height: 33px;
+  color: #fff;
+  }
+  
+  .my_accordion h5, .list-homepage h6 {
+  font-weight: 300 !important;
+  font-size: 23px !important;
+  line-height: 26px !important;
+  padding: 4px 0 !important;
+  }
+
+.white-accordion h5.et_pb_toggle_title, .white-accordion ul li  {
+	color: #172b54 !important;
+}
+.white-accordion .et_pb_toggle_title:before {
+	color: #172b54 !important; 
+}
+  
+  .et_pb_toggle_content .font-size-list li, .et_pb_toggle_content p span, .polymers-table th, .polymers-table, .aquatac-table, .aquatac-table th, .shared-files-file-title, .pine-chemical-table, .pine-chemical-table th, .portfolio-prod-image p, span.product-description, p.bottom-content {
+  font-weight: 300 !important;
+  font-size: 18px !important;
+  line-height: 1.6em !important;
+  }
+
+.polymers-property {
+	text-align: left !important;
+	color: #35476a !important;
+	font-size: 25px!important;
+	font-weight: 700;
+}
+
+.benefits .et_pb_text_inner ul li {
+	color: #172b54;
+	font-size: 18px !important;
+	margin-bottom: 20px;
+	font-weight: 300 !important;
+}
+.benefits .et_pb_text_inner ul {
+	list-style: none !important;
+}
+.benefits .et_pb_text_inner li::before {
+    content: "";
+    border-color: transparent #84BE41;
+    border-style: solid;
+    border-width: 0.55em 0 0.55em 0.85em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1.5em;
+    top: 1.2em;
+    position: relative;
+}
+
+.shared-files-main-file-list, .shared-files-main-elements-right{
+	padding-left: 0px !important;
+}
+
+.shared-files-download-button {
+		font-family: "Montserrat", sans-serif !important;
+	font-weight: 500 !important;
+	text-transform: uppercase;
+	font-size: 16px !important;
+	padding: 12px !important;
+	border-radius: 0px !important;
+	background-color: #172b54 !important;
+	border: 0px !important;
+	color: #fff !important;
+	display: inline-block !important;
+}
+
+.market-categories-pine-chemicals .shared-files-download-button {
+	background-color: #84be41 !important;
+}
+
+.shared-files-download-button:after {
+    content: '\f054';
+    font-family: 'FontAwesome';
+    position: relative;
+	margin-left: -10px;
+    opacity: 0;
+    top: auto;
+    transition: all 300ms ease 0ms;
+    font-weight: 900!important;
+}
+.shared-files-download-button:hover:after {
+    opacity: 1 !important;
+	display: inline-block;
+    transition: all 300ms ease 0ms;
+	width:auto;
+	margin-left:6px;
+}
+
+/* .shared-files-download-button:hover a {
+	margin-left:-5px !important;
+	padding-right:10px !important;
+} */
+
+@media only screen and (max-width: 767px) {
+	.et-db #et-boc .et-l .dipi_advanced_tabs_0 .dipi-at-container {
+		    margin-left: -20px;
+	}
+	.et-db #et-boc .et-l .dipi_advanced_tabs_0 .dipi-at-tabs-prev {
+			top: 50px;
+			margin-left: 20px !important;
+	}
+	.et-db #et-boc .et-l .dipi_advanced_tabs_0 .dipi-at-tabs-next {
+			top: 50px;
+	}
+	.dipi-at-tab-title {
+		font-size: 1.2rem !important;
+	}
+	.dipi-at-tab-subtitle {
+		display: none !important;	
+	}
+	.et_pb_section_first {
+		padding: 10px 0 !important;
+	}
+	.et_pb_section_first h1 {
+		font-size: 2rem !important;
+		padding: 0px !important;
+	}
+	.dipi-at-tabs {
+		border-right: 0px !important;
+	}
+}
+
+.shared-files-main-elements .shared-files-main-elements-right {
+       display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    column-gap: 120px;
+}
+.shared-files-edit-actions {
+	display: none !important;
+}
+
+.btn-product-brochure span {
+	color: #fff !important;
+}
+
+.product-description br {
+	display: none;
+}
+
+/*#cosmetics-tab-polymers .et_pb_tabs_controls li,
+#automotive-chemical .et_pb_tabs_controls li, #adhesive-tab-second .et_pb_tabs_controls li, #adhesive-tab .et_pb_tabs_controls li*/ .market-pine-chemical li{
+    justify-content: center!important;
+    border-radius: 5px!important;
+	    font-weight: 300!important;
+}
+/*#cosmetics-tab-polymers ul.et_pb_tabs_controls.clearfix,
+#compounding-polymers ul.et_pb_tabs_controls.clearfix,
+#automotive-chemical ul.et_pb_tabs_controls.clearfix,
+#adhesive-tab-second ul.et_pb_tabs_controls.clearfix,
+#adhesive-tab ul.et_pb_tabs_controls.clearfix ,*/
+.market-pine-chemical ul.et_pb_tabs_controls.clearfix{
+    border: solid;
+    border-width: 0 2px 0 0;
+		border-color: #00639D;
+	  padding-right: 10px!Important;
+	  text-align: center;
+}
+#automotive-chemical .et_pb_tab {
+    padding-left: 0!important;
+}
+ #coatings-polymers a, #paving-polymers #paving-first-tabs a, #market-tabs a, #oilfield-polymers a, #cosmetics-tab-polymers a, #compounding-polymers a, #adhesive-tab-second a, #adhesive-tab a, .market-pine-chemical a {
+    font-weight: 500!important;
+}
+button.button-tabs {
+    font-weight: 400!important;
+}
+@media screen and (max-width: 767px) {
+	span.et_close_search_field {
+		width: 10%!important;
+	}
+.market-pine-chemical ul.et_pb_tabs_controls.clearfix{
+	  padding-right: unset!Important;
+}
+}
+.head-title-tabs {
+	margin-top:10px;
+  margin-bottom:15px;
+}
+.tabs-p {
+    margin-bottom: 30px;
+}
+
+
+/*SEARCH RESULTS EDITS */
+.search #sidebar .et_pb_widget:not(:first-child) {
+    display: none;
+}
+
+.search #left-area {
+    width: 100%!important;
+    margin-top: 150px;
+}
+
+.search #et-main-area #main-content .container:before, .error404 #et-main-area #main-content .container:before {
+    width: 0 !important;
+}
+
+.error404 #sidebar {
+    display: none;
+}
+
+.error404 #left-area {
+    margin: 100px auto;
+}
+
+.search .et_pb_post h2 a {
+    font-size: 30px;
+    color: #172b54;
+    font-weight: 700;
+}
+
+.search #sidebar {
+    position: absolute;
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 !important;
+}
+
+.search #left-area .entry-featured-image-url img, .search #left-area .wpfd_file {
+    display: none;
+}
+
+.et_search_form_container input {
+    font-size: 16px;
+    color: #000;
+    background-color: #ffffffe0 !important;
+    border-radius: 20px;
+    padding: 30px;
+    height: 50px;
+}
+
+.et_search_form_container input::placeholder {
+    color: #000;
+}
+
+.search #left-area article:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 22px 43px rgba(0, 0, 0, 0.15);
+}
+
+.search #left-area article {
+    margin-top: 10px;
+    margin-bottom: 40px;
+    border-top: 1px solid #f8f8f8;
+    background: #f8f8f8;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+    transition: all .3s;
+	  padding: 80px 50px;
+}
+
+.search .pagination a {
+    color: #172b54;
+}
+
+.not-found-title {
+    font-size: 30px;
+    color: #172b54;
+    font-weight: 700;
+}
+
+.search-no-results #left-area {
+    padding-bottom: 100px;
+}
+
+@media screen and (max-width: 980px){
+	.search #left-area article:not(:first-child) {
+    margin-top: 30px !important;
+}
+	
+	.search #sidebar {
+    margin-top: 120px;
+    top: 0;
+}
+
+.search #sidebar .wp-block-search__label {
+    display: block !important;
+    padding-top: 10px;
+}
+	.et_search_outer{
+		left: 0 !important;
+	}
+}
+
+@media screen and (max-width: 768px){
+	#products-advanced-tabs .dipi-at-tabs-container {
+    margin-top: -50px;
+}
+	
+	a.et_pb_button, #paving-polymers .categories-tab button {
+    width: 100%!important;
+		margin: 0!important;
+}
+	
+	.et_close_search_field {
+    margin-right: 0 !important;
+    margin-top: 10px !important;
+		right: -25px;
+}
+	
+.et_close_search_field:after {
+    font-size: 18px !important;
+    color: #000 !important;
+}
+	
+	.search #left-area article{
+		padding: 50px 30px !important;
+	}
+	.et_pb_module.et_pb_image.et_pb_image_2 {
+    display: flex!Important;
+    justify-content: center;
+}
+img.wp-image-18403 {
+    width: 130px!important;
+}
+	.shared-files-main-elements-right {
+    display: block!important;
+}
+	a.shared-files-download-button {
+    text-align: center;
+    width: 100%;
+}
+	.et_section_specialty .et_pb_row {
+    padding: 0 20px 0 20px!important;
+    width: 100%!important;
+}
+	.dipi-at-tabs-prev, .dipi-at-tabs-next {
+    top: -38px!important;
+}
+	div.market-pine-chemical ul {
+    border: none!important;
+}
+	#pine-chemical-header .et_pb_row.et_pb_row_0 {
+    padding: 50px 0 30px 0!important;
+}
+	span.sds-description {
+    font-size: 16px!important;
+		line-height: 26px !important;
+}
+span.shared-files-file-title {
+    font-size: 16px!important;
+}
+.shared-files-main-elements-left {
+    display: none!important;
+}
+	.benefits-slider h2 {
+    font-size: 25px!important;
+}
+}
+
+
+/* #compounding-polymers a {
+	color: #00639D!important;
+}
+#compounding-polymers a:active {
+	color: #fff!important;
+} */
+
+  /*
+  //fix later, sections text
+  .et_pb_bg_layout_light p {
+  font-size: 17px !important;
+  line-height: 26px !important;
+  font-weight: 200 !important;
+  }
+  
+  .my_accordion span {
+  font-weight: 200 !important;
+  font-size: 17px !important;
+  line-height: 26px !important;
+  font-family: "Montserrat", sans-serif;
+  }
+  
+  
+  .et_pb_button_module_wrapper a {
+  font-size: 14px !important;
+  line-height: 24px !important;
+  }
+  
+  .et_pb_button_module_wrapper a:after {
+  font-size: 14px !important;
+  line-height: 24px !important;
+  } */
+.cl-pagination {
+padding: 20px;
+}
+.cl-pagination .page-numbers {
+margin-left: 10px;
+margin-right: 10px;
+}
+
+.cl-pagination .current {
+    text-decoration: underline;
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 10px;
+    border: solid  2px #6EC286;
+    background: #6EC286;
+}
+.shared-files-search>ul>li span.shared-files-file-title {
+	    max-width: 330px;
+}
+
+/*new*/
+.grey-bar h2{
+	padding-bottom:0px!important;
+}
+.align-center{
+	display:flex;
+	align-items: center;
+}
+@media only screen and (max-width: 980px){
+	.markets-row{
+		flex-direction:column-reverse;
+	}
+	.markets-row .et_pb_column:first-child{
+		margin-bottom:0px;
+	}
+	.category-success-stories .et_pb_row,	.category-case-studies .et_pb_row {
+    width: 100%!important;
+}
+	div#n2-ss-9 .n-uc-A7PVkHgO8Gtk-inner, div#n2-ss-9 .n-uc-oA4bMBgZfl9I-inner, div#n2-ss-9 .n-uc-zvL3GvQSjWKQ-inner, div#n2-ss-9 .n-uc-wk5F0JaGqxv0-inner {
+    padding: 30px 20px 30px 20px!important;
+}
+	
+	.n2-ss-layer.n2-ow.benefits-slider.n-uc-s0IPQ9LEXg0u, .n2-ss-layer.n2-ow.benefits-slider.n-uc-PnXM2bZGmzM4, .n2-ss-layer.n2-ow.benefits-slider.n-uc-poUjObjM1176, .n2-ss-layer.n2-ow.benefits-slider.n-uc-Czq45xi8n43n {
+    display: none;
+}
+	  #post-1741 .n2-section-smartslider h2, div#n2-ss-9item8, div#n2-ss-9item15, div#n2-ss-9item22, div#n2-ss-9item1 {
+    font-size: 30px !important;
+  }
+	#post-1741 .n2-section-smartslider p {
+    font-size: 16px !important;
+	}
+	.category-case-studies h1 {
+    font-size: 45px!important;
+}
+	.category-case-studies ul.resources-list {
+    padding-left: 10px!important;
+    padding-bottom: 15px!important;
+}
+	.category-case-studies ul.resources-list li {
+    font-size: 16px!important;
+}
+		.category-case-studies h1 {
+    font-size: 30px!important;
+}
+	ul.resources-list li a, ul.resources-list li, .category-case-studies ul a {
+    font-size: 16px!important;
+}
+	}
+
+@media only screen and (max-width: 767px){
+.et_pb_section.align-center:first-child {
+    padding: 50px 20px 10px 20px!important;
+}
+	.category-case-studies h1 {
+    font-size: 25px!important;
+}
+	.category-case-studies .et_pb_section_1 {
+    padding: 83px 20px 5px 20px!important;
+}
+}
+.single .post {
+    padding-bottom: 0;
+	  margin-bottom: 0;
+}
+.category-case-studies .align-case-center {
+    display: flex!important;
+    align-items: center!important;
+}
+	.category-case-studies .et_pb_text_0 h1 {
+    padding-bottom: 0!important;
+		font-size: 50px;
+}
+.triangle .et_pb_text_inner li::before {
+    content: "";
+    border-color: transparent #fff;
+    border-style: solid;
+    border-width: 0.55em 0 0.55em 0.85em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1.5em;
+    top: 1.5em;
+    position: relative;
+}
+.triangle .et_pb_text_inner ul {
+    list-style: none!important;
+    color:#fff;
+	padding-left: 25px;
+}
+.triangle .et_pb_text_inner ul li {
+    font-size:18px;
+  	line-height:1.5;
+	font-weight:300;
+}
+.triangle span.m {
+    font-family: "Montserrat",sans-serif;
+    font-size:23px!important;
+}
+@media screen and (max-width:769px){
+	.triangle .et_pb_text_inner ul li {
+		font-size:16px;
+	}
+}
+
+
+.footer-mobile a{
+color:#ffffff !important;
+
+	
+}
+.footer-mobile a{
+font-size:16px !important;
+font-weight:400 !important;
+}
+
+.weight-font {
+	font-weight: 400!important;
+}
+
+@media screen and (max-width: 980px) {
+	.weight-font {
+	font-size: 16px!important;
+}
+}
+
+#footer-bottom a {
+    font-family: 'Roboto'!important;
+}
+div#footer-bottom {
+    background: #212324!important;
+}
+
+/*move the accordion icon to the left*/
+.pa-accordion-icon-left .et_pb_toggle_title:before {
+	left: 0!important;
+}
+
+/*adjust spacing on the left for the icon*/
+.pa-accordion-icon-left .et_pb_toggle_title,
+.pa-accordion-icon-left .et_pb_toggle_content {
+	padding-left: 2em!important;
+}
+
+.et_pb_toggle_title:before {
+  content: "\43" !important;
+  font-family: 'ETmodules' !important;
+  font-size: 36px;
+  position: absolute;
+  color: #000;
+  left: 0!important;
+}  
+.et_pb_toggle_title, .et_pb_toggle_content {
+  padding-left: 2em!important;
+}
+
+.et_pb_toggle_title:before, .et_pb_toggle_open:before {
+  content: "\43" !important;
+  font-family: 'ETmodules' !important;
+  font-size: 36px;
+  position: absolute;
+  left: 0!important;
+  color: #ffffff;
+}
+.et_pb_toggle_open:before {
+  padding-left: 20px!important;
+  padding-top: 3px;
+}
+.et_pb_toggle_title, .et_pb_toggle_content {
+  padding-left: 2em!important;
+}
+
+/* Default button icon styling */
+.et_pb_button {
+  padding-right: 30px!important;
+}
+.et_pb_button:after {
+  margin-left: 0.3em!important;
+  opacity: 1!important;
+  padding-right: 30px!important;
+}
+
+/* Tabbed content styles */
+.dipi-at-panel img {
+  padding: 10px!important;
+}
+
+/* Market Post Single Styles */
+.markets-template-default #main-content .container {
+  width: 100%!important;
+  max-width: 100%!important;
+  margin: 0;
+  padding-top: 58px!important;
+}
+.markets-template-default .et_post_meta_wrapper {
+  display: none;
+}
+
+/*** Tab button styles ***/
+.dipi_advanced_tabs_item button{
+  color: #FFFFFF!important;
+  border-width: 0px!important;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif!important;
+  text-transform: uppercase!important;
+  background-color: #172b54!important;
+  padding-top: 15px!important;
+  padding-right: 30px!important;
+  padding-bottom: 15px!important;
+  padding-left: 15px!important;
+  transition: padding 300ms ease 0ms;
+}
+.dipi_advanced_tabs_item button a{
+  color: #FFFFFF!important;
+  position: relative;
+}
+.dipi_advanced_tabs_item button:hover a{
+  padding-right: 0px!important;
+  padding-left: 0px!important;
+}
+.dipi_advanced_tabs_item button a:after {
+  content: '\f054';
+  font-family: 'FontAwesome';
+  position: absolute;
+  opacity: 1!important;
+  top: auto;
+  right: 0px;
+  transition: all 300ms ease 0ms;
+  font-weight: 400 !important;
+  bottom: 0px;
+  margin-right: -15px!important;
+}
+.market-categories-pine-chemicals .dipi_advanced_tabs_item button {
+  background-color: #84BE41!important;
+}
