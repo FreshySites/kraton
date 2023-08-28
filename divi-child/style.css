@@ -10,7 +10,7 @@ Template: Divi
 /* This stylesheet is intended for only necessary customizations that cannont be done in the Divi builder. */
 
 :root {
-  --accordion-toggle-color: #172b54;
+  --accordion-toggle-color: #ffffff;
 }
 
 /* -- General Layout -- */
@@ -62,7 +62,9 @@ header {
   padding: 10px;
 }
 
-.dipi_advanced_tabs_item a button {
+/* Pixel Tabs and Toggle Content Buttons */
+.dipi_advanced_tabs_item a button,
+.et_pb_toggle_content a button {
 	color: #FFFFFF;
 	border-width: 0px;
 	border-radius: 0px;
@@ -79,11 +81,13 @@ header {
 	position: relative;
 }
 
-.dipi_advanced_tabs_item a button:hover {
+.dipi_advanced_tabs_item a button:hover,
+.et_pb_toggle_content a button:hover {
 	padding-right: 30px;
 }
 
-.dipi_advanced_tabs_item a button:after {
+.dipi_advanced_tabs_item a button:after,
+.et_pb_toggle_content a button:after {
 	content: '\35';
     font-family: 'ETModules'!important;
     position: absolute;
@@ -98,7 +102,8 @@ header {
 	transition-duration: 300ms;
 }
 
-.dipi_advanced_tabs_item a button:hover:after {
+.dipi_advanced_tabs_item a button:hover:after,
+.et_pb_toggle_content a button:hover:after {
 	opacity: 1;
 }
 
