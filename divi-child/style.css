@@ -57,11 +57,6 @@ header {
   padding-top: 3px;
 }
 
-/* Post Slider Module */
-.et_pb_post_slider .et_pb_slide_image img{
-  opacity: 1!important;
-}
-
 /* Pixel Tabs Module */
 .dipi-at-panel img {
   padding: 10px;
@@ -89,22 +84,20 @@ header {
 }
 
 .dipi_advanced_tabs_item a button:after {
-	content: '\f054';
-    font-family: 'FontAwesome';
+	content: '\35';
+    font-family: 'ETModules'!important;
     position: absolute;
-    opacity: 1;
-    top: auto;
-    right: 0px;
     transition: all 300ms ease 0ms;
     font-weight: 400 ;
     bottom: 0px;
     top: 50%;
     height: fit-content;
-    margin-right: 10px;
+    margin-left: 7px;
     transform: translateY(-50%);
 	opacity: 0;
 	transition-duration: 300ms;
 }
+
 .dipi_advanced_tabs_item a button:hover:after {
 	opacity: 1;
 }
